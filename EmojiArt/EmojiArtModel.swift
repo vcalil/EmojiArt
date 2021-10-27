@@ -8,7 +8,7 @@
 import Foundation
 
 struct EmojiArtModel {
-    var background: Background.blank
+    var background = Background.blank
     var emojis = [Emoji]()
     
     struct Emoji: Identifiable, Hashable {
